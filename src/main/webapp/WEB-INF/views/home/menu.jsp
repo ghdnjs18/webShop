@@ -18,7 +18,7 @@
 				<li><a class="active" href="home.do">Home</a></li>
 				
 				<c:if test="${id eq null}">
-					<li><a href="#">Log In</a></li>
+					<li><a href="loginForm.do">Log In</a></li>
 					<li><a href="#">Sign Up</a></li>
 					<li><a href="#">Notice</a></li>
 					<li><a href="#">Product</a></li>
